@@ -14,7 +14,6 @@
         <h3><%= student.firstName %> <%= student.lastName %></h3>
         <h3><%= student.email %></h3>
         <h3><%= student.password %></h3>
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fmulti&psig=AOvVaw1qzUpeSdMQTwipsE5YYQI_&ust=1722046554112000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLCxhrzRw4cDFQAAAAAdAAAAABAE">
         <h3><%= student.registrationDate %></h3>
         <form action="/student/delete" method="post">
           <input type="hidden" value="<%=student._id%>"  name="id"> 
